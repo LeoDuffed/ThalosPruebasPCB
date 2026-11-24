@@ -1,0 +1,35 @@
+# Compilacion STM32: CLI y STM32CubeIDE.
+/build/
+/Debug/
+/Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Compilacion y dependencias locales de PlatformIO.
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Archivos locales del sistema y de editores.
+.DS_Store
+.osx.project
+.metadata/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.log
+*.bak
+*.tmp
+
+# Configuracion privada local.
+.env
+.env.*
+!.env.example
